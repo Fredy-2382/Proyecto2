@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzeria Di Strada</title>
+    <link rel="Preload" href="CSS/Normalize.css" as="style" />
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="Preload" href="CSS/Styles.css" as="style" />
+    <link rel="stylesheet" href="CSS/Styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Proyecto Local Storage</h1>
+    </header>
+    +
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <section>
+        <h2>Proyecto 2</h2>
+        <form class="formulario" id="formulario">
+            <fieldset>
+                <legend>Lista de tareas</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campos">
+                        <label>Tarea</label>
+                        <textarea class="input-text" id="text-area" placeholder="Tu Mensaje"></textarea>
+                    </div>
+                </div>
+
+                <div class="enviar">
+                    <input class="boton" type="button" onclick="agregarTarea()" value="Agregar" />
+                </div>
+                <div>
+                    <button class="boton" type="button" onclick="borrar()">
+                        Borrar
+                    </button>
+                </div>
+                
+            </fieldset>
+        </form>
+    </section>
+<div class="tareas">
+                    <ul id="lista-tareas"></ul>
+                </div>
+                <div></div>
+    <footer class="footer">
+        <p>Todos los derechos reservados. Jose Alfredo Castro Zavala</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
